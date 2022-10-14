@@ -1,15 +1,14 @@
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth;
-
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 header {
-  padding: 3% 5%;
+  /* figma */
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
@@ -17,62 +16,71 @@ header {
   line-height: 25px;
   letter-spacing: -0.08em;
   text-transform: uppercase;
-
   color: #333333;
+
+  /* dynamic */
+  padding-left: min(6.4vw, 77px);
+  padding-top: min(5.33vw, 40px) 
 }
 
 main {
-  position: relative;
-  margin: 4% auto;
+  /* responsive web design 
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  align-items: flex-start;
+
+  /* dynamic */
+  padding-top: min(17.08vw, 200px);
+  
 }
 
 main img {
-  margin: auto 5%;
-  /*max-width: 600px;
-  width: 90%;*/
-  width: min(90vw, 600px);  
-
+  /* dynamic */
+  
+  /*max-width: 539.22px;
+  width: 76.488vw;*/
+  width: min(76.488vw, 539.22px);  
+  padding-bottom: min(17.08vw, 200px);
 }
 
-.text {
-  position: relative;
-  margin: auto 5%;
-  display: block;
-  max-width: 586px;
-}
 
 .head {
+  /* figma*/
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
-  font-size: min(12.8vw, 64px);
-  line-height: min(20vw, 95px);
   letter-spacing: -0.035em;
-  
 
   color: #333333;
+  margin: 0 0 36px 0;
 
-  margin: 36px auto;
-
+  /* dynamic */
+  max-width: 586px;
+  
+  font-size: min(12.8vw, 64px);
+  line-height: min(20vw, 95px);
 }
 
 .paragraph {
-  max-width: 381px;
-
+  /* figma  */
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 400;
-  font-size: min(4.8vw, 24px);
-  line-height: min(7.2vw, 36px);
   letter-spacing: -0.035em;
 
-  /* Gray 2 */
-
   color: #4F4F4F;
+
+  margin: 0;
+  /* dynamic */
+  max-width: 381px;
+  
+  font-size: min(4.8vw, 24px);
+  line-height: min(7.2vw, 36px);
 }
 
 .text button {
@@ -91,22 +99,36 @@ main img {
   text-transform: uppercase;
 
   color: #FFFFFF;
-  margin: 40px 0px;
+
+  /* dynamic */
+  margin: 64px 0 min(30.4vw, 308px) 0;
 }
 
 footer {
-  padding-left: 4.8%;
-  padding-right: 4.8%;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* figma  */
   font-family: 'Montserrat';
   text-align: center;
   font-weight: 500;
   font-size: 14px;
   color: #BDBDBD;
-  clear: both;
+  
+  margin-bottom: 24px;
 }
 
 footer.username {
   font-weight: bold;
+}
+
+@media only screen and (min-width: 1440px)  {
+  main {
+    justify-content: space-between;
+    margin-left: min(6.4vw, 77px);
+    margin-right: 8.264vw;
+  }
+}
+
+@media only screen and (max-device-width: 960px) {
+  .text {
+    margin-left: 6.4vw;
+  }
 }
