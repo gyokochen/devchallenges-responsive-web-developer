@@ -30,7 +30,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: flex-start;
   align-items: flex-start;
 
@@ -119,7 +119,7 @@ footer.username {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 1440px)  {
+@media only screen and (min-width: 1311px)  {
   main {
     justify-content: space-between;
     margin-left: min(6.4vw, 77px);
