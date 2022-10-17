@@ -1,15 +1,16 @@
 * {
+    /* reset styles */
     box-sizing: border-box;
     margin: 0;
 }
   
 body {
-
+    /* dynamic */
     margin: min(110px,18.93vw) 19.1vw 0 16.67vw;
-    
 }
 
 header {
+    /* dynamic */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,12 +28,10 @@ header h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 47px;
-/* identical to box height */
 
     letter-spacing: -0.045em;
 
     color: #000000;
-
 }
 
 header h2 {
@@ -41,21 +40,18 @@ header h2 {
     font-weight: 600;  
     font-size: 18px;
     line-height: 27px;
-/* identical to box height */
 
     text-transform: uppercase;
 
     color: #000000;
-
-    margin: 0;
 }
 
 header p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: min(18px, 3.733vw);
+    line-height: min(27px, 5.6vw);
 
     color: #000000;
 
@@ -71,13 +67,11 @@ main {
     justify-content: space-between;
 
     max-width: 925px;
-   
 }
 
 main img {
     width: min(238px, 37.1vw);
     height: auto;
-    
 }
 
 .member {
@@ -94,18 +88,14 @@ main img {
     font-weight: 400;
     font-size: min(12px, 2.667vw);
     line-height: min(16px, 3.467vw);
-/* identical to box height */
-    text-transform: uppercase;
 
-    margin: 0;
+    text-transform: uppercase;
 
     color: #000000;
 
     width: min(238px, 37.1vw);
 
-    transform: translate(min(137px, 21.558vw), min(127px, 19.8835vw)) rotate(90deg);
-
-    position: block;
+    transform: translate(min(137px, 21.958vw), min(127px, 20.2835vw)) rotate(90deg);
 }
 
 .name {
@@ -114,14 +104,11 @@ main img {
     font-weight: 600;
     font-size: min(18px, 3.733vw);
     line-height: 27px;
-/* identical to box height */
-
 
     color: #000000;
 
     width: min(238px, 37.1vw);
 
-    margin: 0px;
     margin-top: 15px;
 }
 
@@ -135,9 +122,7 @@ footer {
     
     margin-bottom: 24px;
     margin-top: 115px;
-
-   
-  }
+}
   
 footer.username {
     font-weight: bold;
