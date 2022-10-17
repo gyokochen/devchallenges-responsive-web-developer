@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://profound-biscochitos-f372b7.netlify.app/404-not-found-master/404.html">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/404-not-found-master">
       Solution
     </a>
     <span> | </span>
@@ -69,6 +69,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://jiangchenxingzi)
-- GitHub [@your-username](https://gyokochen)
-- Twitter [@your-twitter](https://GyokoChen)
+- Website [jiangchenxingzi.com](https://jiangchenxingzi)
+- GitHub [@gyokochen](https://github.com)
+- Twitter [@GyokoChen](https://twitter.com)
+- instagram [@jiangchenxingzi](https://instagram.com)
