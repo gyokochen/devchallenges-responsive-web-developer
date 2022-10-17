@@ -127,7 +127,7 @@ footer.username {
   }
 }
 
-@media only screen and (max-device-width: 960px) {
+@media only screen and (max-width: 960px) {
   .text {
     margin-left: 6.4vw;
   }

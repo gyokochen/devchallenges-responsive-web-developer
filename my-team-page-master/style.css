@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+body {
+
+    margin: min(110px,18.93vw) 19.1vw 0 16.67vw;
+    
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 215px;
+    row-gap: 38px;
+
+    max-width: 930px;
+
+    margin-bottom: min(96px, 10.133vw);
+}
+
+header h1 {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+/* identical to box height */
+
+    letter-spacing: -0.045em;
+
+    color: #000000;
+
+}
+
+header h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;  
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin: 0;
+}
+
+header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+
+    max-width: 439px;
+    height: 87px;
+
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 925px;
+   
+}
+
+main img {
+    width: min(238px, 37.1vw);
+    height: auto;
+    
+}
+
+.member {
+    width: min(264px, 42.2415vw);
+}
+
+.two, .five {
+    margin-top: 99px;
+}
+
+.position {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(12px, 2.667vw);
+    line-height: min(16px, 3.467vw);
+/* identical to box height */
+    text-transform: uppercase;
+
+    margin: 0;
+
+    color: #000000;
+
+    width: min(238px, 37.1vw);
+
+    transform: translate(min(137px, 21.558vw), min(127px, 19.8835vw)) rotate(90deg);
+
+    position: block;
+}
+
+.name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(18px, 3.733vw);
+    line-height: 27px;
+/* identical to box height */
+
+
+    color: #000000;
+
+    width: min(238px, 37.1vw);
+
+    margin: 0px;
+    margin-top: 15px;
+}
+
+footer {
+    /* figma  */
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+    
+    margin-bottom: 24px;
+    margin-top: 115px;
+
+   
+  }
+  
+footer.username {
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 823px) {
+    body {
+      margin-left: 3.2vw;
+      margin-right: 3.2vw;
+    }
+
+    main {
+        justify-content: start;
+        column-gap: 7.2vw;
+    }
+} 
+
+@media only screen and (max-width: 1233px) {
+    .two, .four, .six {
+        margin-top: min(99px, 12.8vw);
+    }
+
+    .five {
+        margin-top: 0;
+    }
+}
