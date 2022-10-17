@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [jiangchenxingzi.com](https://jiangchenxingzi)
-- GitHub [@gyokochen](https://github.com)
-- Twitter [@GyokoChen](https://twitter.com)
-- instagram [@jiangchenxingzi](https://instagram.com)
+- GitHub [@gyokochen](https://github.com/gyokochen)
+- Twitter [@GyokoChen](https://twitter.com/GyokoChen)
+- instagram [@jiangchenxingzi](https://www.instagram.com/jiangchenxingzi/)
