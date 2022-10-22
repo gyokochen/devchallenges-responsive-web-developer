@@ -98,7 +98,6 @@ ul {
     list-style-type: none;
 }
 
-
 ul > li {
     font-family: 'Montserrat';
     font-style: normal;
@@ -107,10 +106,7 @@ ul > li {
     line-height: 22px;
 
     color: #FFFFFF;
-    padding-top: 8px;
-    padding-bottom: 8px;
 
-    border-bottom: 2px solid #181719;
 }
 
 ul > li :hover {
@@ -320,6 +316,10 @@ footer {
         width: 60vw;
     }
 
+    footer {
+        grid-row: 4;
+    }
+
     .photo img {
         width: 100%;
     }
@@ -368,6 +368,7 @@ footer {
     #nav-collapse .close {
         opacity: 0;
         z-index: 4;
+        position: fixed;
     }
 
     #nav-collapse input:checked ~ .close {
@@ -384,12 +385,13 @@ footer {
         padding-top: 32.09vh;
         padding-bottom: 41.88vh;
         
-        position: absolute;
+        position: fixed;
         z-index: 3;
 
         background: #181719; 
 
         display: flex;
+        align-items: center;
         text-align: center;
         flex-wrap: wrap; 
         
@@ -408,9 +410,8 @@ footer {
     #nav-collapse input:checked ~ ul
     {
         transform: none;
-    }
-
-
+    } 
+    
 }
 
 @media only screen and (max-width: 480px) {
