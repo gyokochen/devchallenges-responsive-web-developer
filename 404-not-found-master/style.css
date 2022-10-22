@@ -9,7 +9,7 @@ body {
 
 header {
   /* figma */
-  font-family: 'Inconsolata';
+  font-family: 'Inconsolata', monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -51,7 +51,7 @@ main img {
 
 .head {
   /* figma*/
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -68,7 +68,7 @@ main img {
 
 .paragraph {
   /* figma  */
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.035em;
@@ -88,7 +88,7 @@ main img {
   height: 68px;
   border: #333333;
   background: #333333;
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -106,8 +106,9 @@ main img {
 
 footer {
   /* figma  */
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   color: #BDBDBD;
@@ -115,8 +116,9 @@ footer {
   margin-bottom: 24px;
 }
 
-footer.username {
-  font-weight: bold;
+.creater {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 1311px)  {

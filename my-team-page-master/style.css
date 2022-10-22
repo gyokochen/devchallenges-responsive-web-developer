@@ -23,7 +23,7 @@ header {
 }
 
 header h1 {
-    font-family: 'PT Serif';
+    font-family: 'PT Serif', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -35,7 +35,7 @@ header h1 {
 }
 
 header h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;  
     font-size: 18px;
@@ -47,7 +47,7 @@ header h2 {
 }
 
 header p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: min(18px, 3.733vw);
@@ -83,7 +83,7 @@ main img {
 }
 
 .position {
-    font-family: 'PT Serif';
+    font-family: 'PT Serif', serif;
     font-style: normal;
     font-weight: 400;
     font-size: min(12px, 2.667vw);
@@ -99,7 +99,7 @@ main img {
 }
 
 .name {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: min(18px, 3.733vw);
@@ -114,8 +114,9 @@ main img {
 
 footer {
     /* figma  */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #BDBDBD;
@@ -124,8 +125,9 @@ footer {
     margin-top: 115px;
 }
   
-footer.username {
-    font-weight: bold;
+.creater {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 
