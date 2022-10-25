@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/recipe-page-master">
+    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/recipe-page-master">
       Solution
     </a>
     <span> | </span>
