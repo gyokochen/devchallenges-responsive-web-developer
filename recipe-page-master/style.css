@@ -89,7 +89,7 @@ main {
 }
 
 .data div {
-    margin-left: 14px;
+    margin-left: max(0.9722vw, 5.42px);
 }
 
 .material-symbols-outlined {
@@ -335,6 +335,7 @@ footer {
         margin-right: 2.933vw;
     }
 
-
-
+    .data h5 {
+        margin-bottom: 0;
+    }
 }

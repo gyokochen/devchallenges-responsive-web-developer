@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Recipe Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://profound-biscochitos-f372b7.netlify.app/recipe-page-master/recipe-page.html">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/recipe-page-master">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
@@ -39,20 +39,21 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot]()
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- My demo is available: https://profound-biscochitos-f372b7.netlify.app/recipe-page-master/recipe-page.html
+
+- Through this practice, I have deeper understanding of checkbox, ordered list, use of media query, dynamic dimensions according to screen size.
+
+- I spent time on Checkbox styling and custom List Number styling.
+
+- My wisdom: the use of calc(), %, min, max and vw,.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML & CSS
 
 ## Features
 
@@ -60,24 +61,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
+- [x] User story: I can see a recipe with ingredients and instructions
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see the number of servings, baking times
 
 ## Acknowledgements
 
@@ -89,6 +75,7 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [jiangchenxingzi.com](https://jiangchenxingzi)
+- GitHub [@gyokochen](https://github.com/gyokochen)
+- Twitter [@GyokoChen](https://twitter.com/GyokoChen)
+- instagram [@jiangchenxingzi](https://www.instagram.com/jiangchenxingzi/)
