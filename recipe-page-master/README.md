@@ -37,9 +37,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-![screenshot]()
+![screenshot](https://github.com/gyokochen/devchallenges-responsive-web-developer/blob/master/recipe-page-master/RecipePage-Screenshoot.png)
 
 - My demo is available: https://profound-biscochitos-f372b7.netlify.app/recipe-page-master/recipe-page.html
 
