@@ -1,0 +1,340 @@
+* {
+    /* reset styles */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: max(3.611vw, 32px) 16.25vw 24px 16.25vw;
+}
+
+.intro {
+    margin-bottom: max(3.33vw, 30px);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: max(3.33vw, 24px);
+    line-height: max(4.44vw, 32px);
+
+    color: #000000;
+}
+
+.detail {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: max(2.986vw, 24px);
+}
+
+.detail svg {
+    margin-top: 3px;
+}
+
+.detail p {
+    max-width: 592px;
+
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 500;
+    font-size: max(0.972vw, 12px);
+    line-height: max(1.181vw, 15px);
+
+    color: #4F4F4F;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 30px;
+}
+
+.datas {
+    grid-column: 10 / span 3;
+    grid-row: 1;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+    height: 26.11vw;
+}
+
+.ingredients {
+    grid-column: 1/ span 7;
+    grid-row: 1;
+}
+
+.instructions {
+    grid-column: 1/ span 7;
+    grid-row: 2;
+}
+
+.source {
+    grid-column: 1/ span 7;
+    grid-row: 3;
+}
+
+.data {
+    margin: 17.77% auto;
+    display: flex;  
+    align-items: center; 
+}
+
+.data div {
+    margin-left: 14px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.yields {
+    margin-top: 23.55%;
+}
+
+.menu {
+    color: #F2994A;
+}
+
+.data span {
+    font-size: max(1.736vw, 14px);
+    margin-left: 1.72em;
+}
+
+.data h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: max(0.694vw, 8px);
+    line-height: max(0.833vw, 10px);
+    text-transform: uppercase;
+
+    color: #BDBDBD;
+
+    margin-bottom: 0.2778vw;
+}
+
+.data p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: max(0.972vw, 10px);
+    line-height: max(1.181vw, 12px);
+
+    color: #333333;
+}
+
+h2 {
+    margin-bottom: 28px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+   
+    color: #333333;
+}
+
+.ingredients h2 {
+    margin-bottom: 0;
+    font-size: max(1.667vw, 18px);
+    line-height: max(2.222vw, 24px);
+}
+
+fieldset {
+    border: none;
+    margin-top: max(2.222vw, 13px);
+}
+
+legend {
+    margin-bottom: max(2.222vw, 24px);
+    
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: max(1.25vw, 16px);
+    line-height: max(1.667vw, 21px);
+
+    color: #333333;
+}
+
+.ingredient {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.ingredient div {
+    width: 100%;
+    display: flex;
+    align-items: start; 
+}
+
+input {
+   width: 21px;
+   height: 21px;
+}
+
+label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: max(1.11vw, 14px);
+    line-height: 25px;
+
+    color: #333333;
+
+    margin-left: max(1.181vw, 8px);
+    width: calc(67.5vw / 12 * 7 - 38px)
+}
+
+ol {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 51px;
+}
+
+ol li {
+    margin: 0 0 30px 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter);
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    position: absolute;
+
+    --size: 36px;
+    left: calc(-1 * var(--size) - 15px);
+    width: 36px;
+    height: 36px;
+
+    background: #F2994A;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.source {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: max(1.11vw, 12px);
+    line-height: 150%;
+
+    color: #BDBDBD;
+}
+
+.italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.strong {
+    font-weight: 700;
+    color: #333333;
+}
+
+footer {
+    /* figma  */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+    
+    margin-top: 93px;
+}
+  
+.creater {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .datas {
+        grid-column: 1 / span 12;
+        grid-row: 1;
+
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .ingredients {
+        grid-column: 1/ span 12;
+        grid-row: 2;
+    }
+
+    .instructions {
+        grid-column: 1/ span 12;
+        grid-row: 3;
+    }
+
+    .source {
+        grid-column: 1/ span 12;
+        grid-row: 4;
+    }
+
+    .data {
+        margin: 0;
+        width: 33%;
+    }
+
+    .data span {
+        margin-left: 0;
+    }
+
+    .yields {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    label {
+        width: calc(100% - 38px)
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin-left: 2.933vw;
+        margin-right: 2.933vw;
+    }
+
+
+
+}

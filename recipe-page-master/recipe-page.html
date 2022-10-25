@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+  <link rel="icon" href="devchallenges.png" />
+
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://devchallenges.io/"
+  />
+
+  <title>Recipe Page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="intro">
+        <h1>Classic Cheesecake Recipe</h1>
+        <div class="detail">
+          <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="1.5" cy="1.5" r="1.5" fill="#C4C4C4"/>
+            <circle cx="1.5" cy="6.5" r="1.5" fill="#C4C4C4"/>
+            <circle cx="6.5" cy="1.5" r="1.5" fill="#C4C4C4"/>
+            <circle cx="6.5" cy="6.5" r="1.5" fill="#C4C4C4"/>
+            <circle cx="11.5" cy="1.5" r="1.5" fill="#C4C4C4"/>
+            <circle cx="11.5" cy="6.5" r="1.5" fill="#C4C4C4"/>
+          </svg>
+          <p class="italic">Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
+        </div>
+        <img src="photo1.png" alt="chesscake">
+    </section>
+
+    <main>
+    <section class="datas">
+      <div class="data yields">
+        <span class="material-symbols-outlined menu">
+          restaurant_menu
+        </span>
+        <div>
+          <h5>Yields</h5>
+          <p>12 servings</p>
+        </div>
+      </div>
+
+      <div class="data">
+        <span class="material-symbols-outlined">
+          schedule
+        </span>
+        <div>
+          <h5>Prep TIme</h5>
+          <p>45 minutes</p>
+        </div>
+      </div>
+
+        <div class="data">
+          <span class="material-symbols-outlined">
+            schedule
+          </span>
+          <div>
+            <h5>Cook Time</h5>
+            <p>1 hour</p>
+          </div>
+        </div>
+
+      <div class="data">
+        <span class="material-symbols-outlined">
+            schedule
+        </span>
+        <div>
+          <h5>Total Time</h5>
+          <p>7,75 hours</p>
+        </div>  
+      </div>
+    </section>
+
+    <section class="ingredients">
+        <h2>Ingredients</h2>
+
+        <fieldset class="ingredient">
+
+          <legend class="italic">Graham Cracker Crust</legend>
+
+          <div>
+            <input type="checkbox" id="cbox1" class="checklist"/> 
+            <label for="cbox1">1 and 1/2 cups (150g) <span class="strong">graham cracker crumbs</span> (about 10 full sheet graham crackers)</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cbox2" class="checklist"/> 
+            <label for="cbox2">5 Tablespoons (70g) <span class="strong">unsalted butter</span>, melted</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cbox3" class="checklist" />
+            <label for="cbox3">1/4 cup (50g) <span class="strong">granulated sugar</span></label>
+          </div>
+
+        </fieldset>
+
+        <fieldset class="ingredient">
+
+          <legend class="italic">Cheesecake</legend>
+
+          <div>
+            <input type="checkbox" id="cbox4" class="checklist"/> 
+            <label for="cbox4">four 8-ounce blocks (904g) full-fat <span class="strong">cream cheese</span>, softened to room temperature</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cbox5" class="checklist" /> 
+            <label for="cbox5">1 cup (200g) <span class="strong">granulated sugar</span></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cbox6" class="checklist" /> 
+            <label for="cbox6">1 cup (240g) full-fat <span class="strong">sour cream</span>, at room temperature</label>
+          </div>
+
+
+          <div>
+            <input type="checkbox" id="cbox7" class="checklist" /> 
+            <label for="cbox7">1 teaspoon <span class="strong">pure vanilla extract</span></label>
+          </div>
+          
+          <div>
+            <input type="checkbox" id="cbox8" /> 
+            <label for="cbox8">2 teaspoons <span class="strong">fresh lemon juice</span> (optional, but recommended)</label>
+          </div>
+
+          <div>
+          <input type="checkbox" id="cbox9" /> 
+          <label for="cbox9">3 large <span class="strong">eggs</span>, at room temperature</label>
+          </div>
+          
+          <div>
+          <input type="checkbox" id="cbox10" />
+          <label for="cbox10">topping suggestions: <span class="italic">salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</span>span> (recipe in notes)</label>
+          </div>
+
+        </fieldset>
+    </section>
+
+    <section class="instructions">
+      <h2>Instructions</h2>
+      <ol class="steps">
+        <li class="step">
+          Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).
+        </li>
+        <li class="step">
+          <span class="strong">Make the crust</span>: Using a food processor, pulse the graham crackers into crumbs. Pour into a medium bowl and stir in sugar and melted butter until combined. (You can also pulse it all together in the food processor.) Mixture will be sandy. Press firmly into the bottom and slightly up the sides of a 9-inch or 10-inch springform pan. No need to grease the pan first. I use the bottom of a measuring cup to pack the crust down tightly. Pre-bake for 8 minutes. Remove from the oven and place the hot pan on a large piece of aluminum foil. The foil will wrap around the pan for the water bath in step 4. Allow crust to slightly cool as you prepare the filling.
+        </li>
+        <li class="step">
+          <span class="strong">Make the filling</span>: Using a handheld or stand mixer fitted with a paddle attachment, beat the cream cheese and granulated sugar together on medium-high speed in a large bowl until the mixture is smooth and creamy, about 2 minutes. Add the sour cream, vanilla extract, and lemon juice then beat until fully combined. On medium speed, add the eggs one at a time, beating after each addition until just blended. After the final egg is incorporated into the batter, stop mixing. To help prevent the cheesecake from deflating and cracking as it cools, avoid over-mixing the batter as best you can.
+        </li>
+        <li class="step">
+          <span class="strong">Prepare the simple water bath (see note)</span> Boil a pot of water. You need 1 inch of water in your roasting pan for the water bath, so make sure you boil enough. I use an entire kettle of hot water. As the water is heating up, wrap the aluminum foil around the springform pan. Pour the cheesecake batter on top of the crust. Use a rubber spatula or spoon to smooth it into an even layer. Place the pan inside of a large roasting pan. Carefully pour the hot water inside of the pan and place in the oven. (Or you can place the roasting pan in the oven first, then pour the hot water in. Whichever is easier for you.)
+        </li>
+        <li class="step">
+          Bake cheesecake for 55-70 minutes or until the center is almost set. When it’s done, the center of the cheesecake will slightly wobble if you gently shake the pan. Turn the oven off and open the oven door slightly. Let the cheesecake sit in the oven in the water bath as it cools down for 1 hour. Remove from the oven and water bath, then cool cheesecake completely at room temperature. Then refrigerate the cheesecake for at least 4 hours or overnight. 
+        </li>
+        <li class="step">
+          Use a knife to loosen the chilled cheesecake from the rim of the springform pan, then remove the rim. Using a clean sharp knife, cut into slices for serving. For neat slices, wipe the knife clean and dip into warm water between each slice. 
+        </li>
+        <li class="step">
+          Serve cheesecake with desired toppings. Cover and store leftover cheesecake in the refrigerator for up to 5 days. 
+        </li>
+      </ol>
+    </section>
+
+    <section class="source italic">
+      <p>Source: https://sallysbakingaddiction.com/classic-cheesecake/</p>
+    </section>
+
+    </main>
+
+    <footer>
+      created by <span class="creater">Chen</span> - devChallenges.io
+    </footer>
+
+</body>
+</html>
