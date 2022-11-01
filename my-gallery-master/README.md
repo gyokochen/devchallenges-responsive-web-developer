@@ -1,5 +1,5 @@
 <!-- Please update value in the {}  -->
-
+<html>
 <h1 align="center">{Your project name}</h1>
 
 <div align="center">
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}"  target="_blank">
+    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/my-gallery-master"  target="_blank">
       Solution
     </a>
     <span> | </span>
@@ -21,6 +21,7 @@
     </a>
   </h3>
 </div>
+</html>
 
 <!-- TABLE OF CONTENTS -->
 
