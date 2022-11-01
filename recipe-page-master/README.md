@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://challenges-responsive-website.netlify.app/recipe-page-master/recipe-page.html">
+    <a href="https://challenges-responsive-website.netlify.app/recipe-page-master/recipe-page.html" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/recipe-page-master">
+    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/recipe-page-master" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht" target="_blank">
       Challenge
     </a>
   </h3>

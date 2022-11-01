@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://github.com/gyokochen/devchallenges-responsive-web-developer/blob/master/my-gallery-master/my-gallery-screenshot.jpg)
 
 - My demo is available: https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html
 

@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{My Team Page}</h1>
+<h1 align="center">My Team Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://challenges-responsive-website.netlify.app/my-team-page-master/myteampage.html">
+    <a href="https://challenges-responsive-website.netlify.app/my-team-page-master/myteampage.html" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/my-team-page-master">
+    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/my-team-page-master" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U" target="_blank">
       Challenge
     </a>
   </h3>
