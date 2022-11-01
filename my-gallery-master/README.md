@@ -8,20 +8,19 @@
 
 <div align="center">
   <h3>
-    <a href="https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html"  target="_blank">
+    <a href="https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/my-gallery-master"  target="_blank">
+    <a href="https://github.com/gyokochen/devchallenges-responsive-web-developer/tree/master/my-gallery-master" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I"  target="_blank">
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I" target="_blank">
       Challenge
     </a>
   </h3>
 </div>
-</html>
 
 <!-- TABLE OF CONTENTS -->
 
