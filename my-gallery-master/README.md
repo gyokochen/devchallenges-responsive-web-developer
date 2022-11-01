@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html">
+    <a href="https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html"  target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{your-url-to-the-solution}"  target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I"  target="_blank">
       Challenge
     </a>
   </h3>
