@@ -1,0 +1,153 @@
+* {
+    /* reset styles */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+
+    margin: min(8vw, 60px) 3.2vw 24px 3.2vw;
+}
+
+#infor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: min(3.2vw , 24px);
+}
+
+#portfolio {
+    width: 100%;
+}
+
+#portfolio img {
+    width: 27.136vw;
+    max-width: 156px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 16px;
+}
+
+#portfolio h5 {
+    font-size: min(3.733vw, 24px);
+    line-height: min(4.533vw, 29px);
+    text-align: center;
+
+    color: #4E5150;
+
+    margin-top: min(2.997vw, 16px);
+    margin-bottom: min(1.067vw, 8px);
+}
+
+#portfolio p {
+    font-size: min(2.667vw , 14px);
+    line-height: min(3.2vw, 17px);
+    text-align: center;
+
+    color: #A9A9A9;
+}
+
+.data {
+    width: min(20.8vw, 100px);
+    height: min(13.87vw, 67px);
+
+    background: #E5E5E5;
+    border-radius: 12px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: min(0.8vw , 4px);
+}
+
+.data p {
+    width: 100%
+}
+
+.num {
+    font-size: min(3.2vw, 18px);
+    line-height: min(4vw, 22px);
+
+    color: #4E5150;
+}
+
+.category {
+    font-size: min(3.2vw, 14px);
+    line-height: min(4vw, 17px);
+
+    color: #BDBDBD;
+}
+
+#gallery {
+    margin-top: min(10.4vw, 64px);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+#gallery img {
+    width: 100%;
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+#photo1 {
+    grid-column: 1 / span 1;
+}
+
+#photo2 {
+    grid-column: 2 / span 2;
+}
+
+#photo3 {
+    grid-column: 1 / span 2;
+}
+
+#photo4 {
+    grid-column: 3 / span 1;
+    grid-row: 2/ span 2;
+}
+
+#photo6 {
+    grid-column: 1 / span 1;
+}
+
+#photo5 {
+    grid-column: 2 / span 1;
+}
+
+footer {
+    /* figma  */
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+    
+    margin-top: min(11.73vw, 143px); 
+}
+  
+.creater {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin-left: 16.8vw;
+        margin-right: 16.8vw;
+    }
+}
+
