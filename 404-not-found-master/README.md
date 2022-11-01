@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://profound-biscochitos-f372b7.netlify.app/404-not-found-master/404.html">
+    <a href="https://challenges-responsive-website.netlify.app/404-not-found-master/404.html">
       Demo
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 
 ![screenshot](https://github.com/gyokochen/devchallenges-responsive-web-developer/blob/master/404-not-found-master/404NotFoundScreenshoot.png)
 
-- My demo is available: https://profound-biscochitos-f372b7.netlify.app/404-not-found-master/404.html
+- My demo is available: https://challenges-responsive-website.netlify.app/404-not-found-master/404.html
 
 - Through this practice, I have better understanding of flex, use of media query, dynamic dimensions according to screen size
 

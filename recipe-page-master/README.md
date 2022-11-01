@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://profound-biscochitos-f372b7.netlify.app/recipe-page-master/recipe-page.html">
+    <a href="https://challenges-responsive-website.netlify.app/recipe-page-master/recipe-page.html">
       Demo
     </a>
     <span> | </span>
@@ -39,13 +39,13 @@
 
 ![screenshot](https://github.com/gyokochen/devchallenges-responsive-web-developer/blob/master/recipe-page-master/RecipePage-Screenshoot.png)
 
-- My demo is available: https://profound-biscochitos-f372b7.netlify.app/recipe-page-master/recipe-page.html
+- My demo is available: https://challenges-responsive-website.netlify.app/recipe-page-master/recipe-page.html
 
 - Through this practice, I have deeper understanding of checkbox, ordered list, use of media query, dynamic dimensions according to screen size.
 
 - I spent time on Checkbox styling and custom List Number styling.
 
-- My wisdom: the use of calc(), %, min, max and vw,.
+- My wisdom: the use of calc(), %, min, max and vw.
 
 ### Built With
 

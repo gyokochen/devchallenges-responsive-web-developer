@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://profound-biscochitos-f372b7.netlify.app/my-team-page-master/myteampage.html">
+    <a href="https://challenges-responsive-website.netlify.app/my-team-page-master/myteampage.html">
       Demo
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 
 ![screenshot](https://github.com/gyokochen/devchallenges-responsive-web-developer/blob/master/my-team-page-master/screenshot-my-team-page.png)
 
-- My demo is available: https://profound-biscochitos-f372b7.netlify.app/my-team-page-master/myteampage.html
+- My demo is available: https://challenges-responsive-website.netlify.app/my-team-page-master/myteampage.html
 
 - Through this practice, I have deeper understanding of flex, use of media query, dynamic dimensions according to screen size.
 
@@ -57,7 +57,6 @@
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
-
 
 ## Acknowledgements
 

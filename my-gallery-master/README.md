@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html">
       Demo
     </a>
     <span> | </span>
@@ -36,29 +36,27 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot]()
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- My demo is available: https://challenges-responsive-website.netlify.app/my-gallery-master/my-gallery.html
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- Through this practice, I have deeper understanding of grid.
+
+- I spent time on putting photos in grid as the design.
+
+- My wisdom: the use of %, min, max and vw.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML & CSS
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
-
 
 ## Acknowledgements
 
@@ -70,6 +68,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [jiangchenxingzi.com](https://jiangchenxingzi)
+- GitHub [@gyokochen](https://github.com/gyokochen)
+- Twitter [@GyokoChen](https://twitter.com/GyokoChen)
+- instagram [@jiangchenxingzi](https://www.instagram.com/jiangchenxingzi/)
