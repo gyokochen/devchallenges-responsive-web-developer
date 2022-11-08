@@ -1,0 +1,358 @@
+* {
+    /* reset styles */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: min(8.533vw, 64px) 3.2vw 24px 3.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 20
+}
+
+header {
+    margin-bottom: min(51px, 5.6vw);
+}
+
+h1 {
+    font-size: min(2.5vw, 24px);
+    line-height: min(3.06vw, 29px);
+
+    color: #4E5150;
+
+    transform: rotate(-0.02deg);
+}
+
+.items, .item, .inputs, .itemInfo, .itemNum {
+    display: flex;
+}
+
+.items {
+    flex-wrap: wrap;
+    gap: 30px;
+
+    background: #F2F2F2;
+    border-radius: 12px;
+
+    padding-left: min(30px, 7.2vw);
+    padding-right: min(30px, 7.2vw);
+    padding-top: min(35px, 8vw);
+}
+
+.item {
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.itemInfo, .inputs {
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.item img {
+    width: min(32.73vw, 135px);
+    height: min(33.24vw, 136px);
+
+    background: #C4C4C4;
+    border-radius: 13px;
+    transform: rotate(-0.02deg);
+}
+
+h5 {
+    font-size: min(16px, 3.2vw);
+    line-height: min(20px, 4vw);
+
+    color: #4E5150;
+
+    transform: rotate(-0.02deg);
+    width: 100%;
+}
+
+.itemInfo {
+    width: min(39.47vw, 162px);
+}
+
+.price {
+    font-size: min(16px, 3.73vw);
+    line-height: min(20px, 4.53vw);
+
+    color: #F2994A;
+
+    transform: rotate(-0.02deg);
+    width: 40%;
+}
+
+.delete {
+    text-decoration: line-through;
+
+    font-size: min(12px, 2.67vw);
+    line-height: min(15px, 3.2vw);
+    text-decoration-line: line-through;
+
+    color: #4E5150;
+    transform: rotate(-0.02deg);
+    width: 50%;
+}
+
+.itemNum {
+    width: min(32.74vw, 135px);
+    height: min(13.30vw, 52px);
+
+    border: 1px solid #828282;
+    border-radius: 12px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numButton .icon {
+    font-size: 14px;
+    color: #828282;
+    margin-top: calc(50% - 0.5em);
+}
+
+.numButton {
+    width: 20px;
+    height: 20px;
+
+    background: #E0E0E0;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+}
+
+.number {
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #333333;
+}
+
+hr {
+    height: 1px;
+    background-color: #BDBDBD;
+    transform: rotate(-0.18deg);
+    border: none;
+}
+
+.fee {
+    margin-top: min(65px, 12.53vw);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.fee p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.right {
+    float: right;
+}
+
+h2 {
+    font-size: min(18px, 3.733vw);
+    line-height: min(22px, 4.53vw);
+
+    color: #333333;
+
+    transform: rotate(-0.02deg);
+    margin-bottom: min(15px, 2.99vw);
+}
+
+.inputs {
+    gap: 16.52px;
+}
+
+.info {
+    width: 100%;
+}
+
+.half {
+    width: 47%;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper > span {
+    color: #828282;
+    font-size: min(20px, 4vw);
+
+    position: absolute;
+
+    left: min(15px, 2.805vw);
+    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
+}
+
+label {
+    font-size: min(12px, 2.67vw);
+    line-height: min(15px, 3.2vw);
+    color: #4F4F4F;
+    transform: rotate(-0.02deg);
+}
+
+select, input {
+    margin-top: min(7px, 1.39vw);
+    display: block;
+    height: min(56px, 10.816vw);
+    border: 1px solid #828282;
+    border-radius: 12px;
+    padding-left: min(52px, 10.4vw);
+    font-size: min(16px, 3.2vw);
+    line-height: min(20px, 4vw);
+    color: #828282;   
+}
+
+input {
+    width: 100%;
+}
+
+#recipient-name {
+    color: #333333;
+}
+
+#recipient-country, #recipient-postal {
+    width: 100%;
+}
+
+#contactInfo {
+    margin-top: 39px;
+    margin-bottom: min(58px, 12vw);
+}
+
+.checkSave {
+    display: flex;
+    align-items: center;
+    margin-top: min(20px, 4.533vw);
+}
+
+input[type=checkbox] {
+    width: min(21px, 4.27vw);
+    height: min(21px, 4.27vw);
+
+    border: 1px solid #828282;
+    border-radius: 4px;
+
+    display: inline;
+    margin-top: 0;
+}
+
+select {
+    /* reset */    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: transparent;
+}
+
+.square {
+    height: min(20px, 4vw);
+    width: min(20px, 4vw);
+    background: #E0E0E0;
+    border-radius: 4px;
+    position: absolute;
+    font-size: min(20px, 4vw);
+
+    right: min(15px, 2.805vw);
+    top: calc(50% - 0.5em);
+    z-index: -1;
+}
+
+.square > span {
+    color: #828282;
+    font-size: min(20px, 4vw);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.checkSave label {
+    margin-left: 7.78px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0;
+
+    width: 166px;
+    height: 54px;
+
+    background: #F2994A;
+    border-radius: 12px;
+    border: none;
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+footer {
+    /* figma  */
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+
+    margin-top: 95px;
+}
+  
+.creater {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin-left: 16.67vw;
+        margin-right: 16.67vw;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .items {
+        float: right;
+        width: 26.60vw;
+    }
+
+    #contactInfo, #shippingAddress {
+        width: 32.29vw;
+    }
+
+    .inputs {
+        gap: 0.9vw;
+    }
+
+    footer {
+        margin-top: 159px;
+    }
+
+}
