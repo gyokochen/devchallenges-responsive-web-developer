@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
       Challenge
     </a>
   </h3>
@@ -57,23 +57,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
-
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
 ## Acknowledgements
 
@@ -85,7 +69,6 @@ $ npm start
 
 ## Contact
 
-- Website [jiangchenxingzi.com](https://jiangchenxingzi)
-- GitHub [@gyokochen](https://github.com/gyokochen)
-- Twitter [@GyokoChen](https://twitter.com/GyokoChen)
-- instagram [@jiangchenxingzi](https://www.instagram.com/jiangchenxingzi/)
+- Website [your-website.com](https://{your-web-site-link})
+- GitHub [@your-username](https://{github.com/your-usermame})
+- Twitter [@your-twitter](https://{twitter.com/your-username})

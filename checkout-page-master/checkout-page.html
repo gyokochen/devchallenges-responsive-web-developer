@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-    
+
   <link rel="icon" href="devchallenges.png" />
 
   <link
@@ -64,8 +64,8 @@
                     <p>Total<span class="right">$<span id="total">0</span></span></p>
                 </div>
             </section>
-                
-                
+
+
             <section id="contactInfo">
                 <h2>Contact infomation</h2>
                 <div class="inputs">
@@ -108,7 +108,7 @@
                         <div class="input-wrapper">
                             <span class="material-symbols-outlined">apartment</span>
                             <input type="text" name="recipient-city" id="recipient-city" placeholder="Your city.." />
-                        </div>  
+                        </div>
                     </div>
                     <div class="info half">
                         <label for="recipient-country">Country</label>
@@ -386,11 +386,11 @@
                 <div class="checkSave">
                     <input type="checkbox" id="saveInfo"><label for="saveInfo">Save this information for next time</label>
                 </div>
-                
+
                 <input type="submit" value="Continue" />
-                
+
             </section>
-            
+
         </form>
     </main>
 
@@ -404,60 +404,70 @@
         //itemNum Button function
         const item = document.querySelectorAll('.item');
 
-        item.forEach((x) => 
+        item.forEach((x) =>
         {
-            const minus = document.querySelector(`#${x.id} .minus`);
-            const plus = document.querySelector(`#${x.id} .plus`);
-            let number = document.querySelector(`#${x.id} .number`).innerHTML;
-        
-            minus.addEventListener('click',() => 
+            const itemMinus = document.querySelector(`#${x.id} .minus`);
+            const itemPlus = document.querySelector(`#${x.id} .plus`);
+            let itemNumber = document.querySelector(`#${x.id} .number`).innerHTML;
+
+            itemMinus.addEventListener('click',() =>
             {
-                if (number > 0)
+                if (itemNumber > 0)
                 {
-                number--;
-                document.querySelector(`#${x.id} .number`).innerHTML = number;
-
-                adjustTotalPrice(-(document.querySelector(`#${x.id} .price`).innerHTML.replace('$', '')));
+                    itemNumber--;
+                    document.querySelector(`#${x.id} .number`).innerHTML = itemNumber;
+                    adjustTotalPrice(-(document.querySelector(`#${x.id} .price`).innerHTML.replace('$', '')));
                 }
-            } 
+            }
             );
-        
-            plus.addEventListener('click',() => 
-            {
-                number++;
-                document.querySelector(`#${x.id} .number`).innerHTML = number;
-                adjustTotalPrice(document.querySelector(`#${x.id} .price`).innerHTML.replace('$', ''));
-            } 
-            );
-        
-        }) 
 
-        const numbers = document.querySelectorAll('.number');
+            itemPlus.addEventListener('click',() =>
+            {
+                itemNumber++;
+                document.querySelector(`#${x.id} .number`).innerHTML = itemNumber;
+                adjustTotalPrice(document.querySelector(`#${x.id} .price`).innerHTML.replace('$', ''));
+            }
+            );
+
+        })
+
+        let numbers = document.querySelectorAll('.number');
         const prices = document.querySelectorAll('.price');
         const shipping = Number(document.querySelector('#shipping').innerHTML);
 
-        let total = shipping;
-        let itemNum = [];
-        let itemPrice = [];
-            
-        numbers.forEach((x) => itemNum.push(Number(x.innerHTML)));
-        prices.forEach((x) => itemPrice.push(Number(x.innerHTML.replace('$',''))));
+        let totalPrice = shipping;
+        let itemsNumber = [];
+        let itemsPrice = [];
 
-        for (let i = 0; i < itemNum.length; i++) {
-            total = total + itemNum[i] * itemPrice[i];
+        numbers.forEach((x) => itemsNumber.push(Number(x.innerHTML)));
+        prices.forEach((x) => itemsPrice.push(Number(x.innerHTML.replace('$',''))));
+
+        for (let i = 0; i < itemsNumber.length; i++) {
+            totalPrice = totalPrice + itemsNumber[i] * itemsPrice[i];
         }
 
-        total = Math.round(total * 100) / 100;
+        totalPrice = Math.round(totalPrice * 100) / 100;
 
-        document.querySelector('#total').innerHTML = total;
+        document.querySelector('#total').innerHTML = totalPrice;
 
         //calculate total price
         function adjustTotalPrice(x) {
-            total = total + Number(x);
-            total = Math.round(total * 100) / 100;
-            document.querySelector('#total').innerHTML = total; 
+            totalPrice = totalPrice + Number(x);
+            totalPrice = Math.round(totalPrice * 100) / 100;
+            document.querySelector('#total').innerHTML = totalPrice;
+
+            if (totalPrice === shipping)
+            {
+                document.querySelector('#total').innerHTML = 0;
+                document.querySelector('#shipping').innerHTML = 0;
+            }
+            else {
+                document.querySelector('#shipping').innerHTML = shipping;
+            }
+
         }
-        
+
+
     </script>
 </body>
 </html>
